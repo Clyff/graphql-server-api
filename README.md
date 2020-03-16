@@ -46,11 +46,12 @@ The following Queries and mutations are allowed:
  [ ] Develop a web application to consume the API
 
 ### Docs used in this project:
-   Graphql <https://graphql.org/>
-   Apollo Graphql <https://www.apollographql.com/docs/>
-   Serialize: <https://sequelize.org/>
+ - Graphql <https://graphql.org/>
+ - Apollo Graphql <https://www.apollographql.com/docs/>
+ - Serialize: <https://sequelize.org/>
 
-   License
+
+License
 ----
 
 MIT
