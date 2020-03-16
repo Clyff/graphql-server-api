@@ -39,11 +39,11 @@ The following Queries and mutations are allowed:
 
 
 **TO DO list**
- [ ] Add a unit tests in the project
- [ ] Add script to build to production (ops, lol)
- [ ] Alot of refactoring
- [ ] Create more Queries to generate new accounts (basic CRUD)
- [ ] Develop a web application to consume the API
+ - [ ] Add a unit tests in the project
+ - [ ] Add script to build to production (ops, lol)
+ - [ ] Alot of refactoring
+ - [ ] Create more Queries to generate new accounts (basic CRUD)
+ - [ ] Develop a web application to consume the API
 
 ### Docs used in this project:
  - Graphql <https://graphql.org/>
