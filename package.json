@@ -1,0 +1,23 @@
+{
+  "name": "graphql-server-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec babel-node server.js",
+    "sequelize-skeleton": "npx sequelize db:migrate && npx sequelize db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "apollo-server-express": "^2.11.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2",
+    "pg-promise": "^10.4.4",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1"
+  }
+}
