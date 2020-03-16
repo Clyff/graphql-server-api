@@ -1,14 +1,14 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  const registros = sequelize.define('registro', {
+  const carteiras = sequelize.define('carteira', {
     conta: DataTypes.INTEGER,
     saldo: DataTypes.INTEGER
   }, {
     freezeTableName: true,
     timestamps: false
   });
-  registros.associate = function(models) {
+  carteiras.associate = function(models) {
     // associations can be defined here
   };
-  return registros;
+  return carteiras;
 };

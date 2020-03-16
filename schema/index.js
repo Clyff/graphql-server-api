@@ -1,5 +1,5 @@
 export default `
-type Registro {
+type Carteira {
   id: ID!
   conta: Int
   saldo: Int!
@@ -10,7 +10,7 @@ type Query {
 }
 
 type Mutation {
-  sacar(conta: Int!, valor: Int!): Registro
-  depositar(conta: Int!, valor: Int!): Registro
+  sacar(conta: Int!, valor: Int!): Carteira
+  depositar(conta: Int!, valor: Int!): Carteira
 }
 `
