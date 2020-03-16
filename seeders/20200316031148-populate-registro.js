@@ -2,7 +2,7 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.bulkInsert('registro', [{
+    return queryInterface.bulkInsert('carteira', [{
       conta: 1515,
       saldo: 500
     },{
@@ -16,6 +16,6 @@ module.exports = {
 
   down: (queryInterface, Sequelize) => {
     const Op = Sequelize.Op
-      return queryInterface.bulkDelete('registro', null, {});
+      return queryInterface.bulkDelete('carteira', null, {});
   }
 };
