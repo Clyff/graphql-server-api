@@ -50,7 +50,8 @@ The following Queries and mutations are allowed:
  - Apollo Graphql <https://www.apollographql.com/docs/>
  - Serialize: <https://sequelize.org/>
 
-   License
+
+License
 ----
 
 MIT
